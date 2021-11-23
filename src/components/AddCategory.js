@@ -18,7 +18,7 @@ export const AddCategory = ({ setCategories }) => {
 
   return (
     <form onSubmit={handdleSubmit}>
-      <input type="text" value={inputValue} onChange={handdleInputChange} />
+      <input type="text" placeholder="Search your gif here!" value={inputValue} onChange={handdleInputChange} />
     </form>
   );
 };
